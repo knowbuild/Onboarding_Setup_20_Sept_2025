@@ -13,7 +13,7 @@ use App\Http\Controllers\Accounts\{
 
 Route::prefix('finance')->group(function () {
     Route::post('payment-received', [FinanceController::class, 'createPaymentDetail']);
-    // Route::get('payment-received-by-aging', [FinanceController::class, 'payment_received_by_aging']);
+    // Route::get('payment-received-by-aging', [FinanceController::class testing, 'payment_received_by_aging']);
     // Route::get('pending-account-receivables', [FinanceController::class, 'pending_account_receivables']);
     Route::get('pending-account-receivables-by-aging', [FinanceController::class, 'pending_account_receivables_by_aging']);
     // Route::get('pending-account-receivables-by-aging-not-yet-due', [FinanceController::class, 'pending_account_receivables_by_aging_not_yet_due']);
