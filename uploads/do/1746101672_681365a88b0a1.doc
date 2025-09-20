@@ -1,0 +1,333 @@
+<html><meta http-equiv="Content-Type" content="text/html; charset=Windows-1252"><meta name='robots' content='noindex,nofollow'><body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.stanlay.in:Your Order</title>
+<link href='css/style.css' rel='stylesheet' type='text/css' />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+<style>
+body {
+	font-family:Helvetica, sans-serif;
+
+}
+p strong {
+    font-size: 10px;
+}
+</style>
+<script src="js/web_rupee_symbol.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+
+function printerX()
+
+{
+
+	window.print();
+
+}
+
+
+
+function ViewPrintX( orderID)
+
+{
+
+  var path;
+
+  path = "packing_slip.php?pcode="+orderID;
+
+  newwindow=window.open(path,'name',"menubar=1,resizable=1,status=1,toolbar=1,scrollbars=1");
+
+	if (window.focus) {newwindow.focus();}
+
+}
+
+</script>
+<style type="text/css">
+tr, td {
+	border: 1px solid #333;
+}
+.pagehead {
+	color: #333333;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+.head {
+	color: #333333;
+	font-size: 10px;
+	font-weight: bold;
+	background-color: #FFFFFF;
+}
+table.bor_opt tr td {
+	color:#000;
+	font-family:Helvetica, sans-serif;
+	font-size:15px;
+	border:none;
+	padding:3px;
+	line-height:15px;
+	margin:0px;
+}
+table.signhed tr td {
+	border:0px solid 5px;
+	padding:30px 2px 5px 2px;
+	vertical-align:bottom;
+	text-align:center;
+	font-weight:bold;
+	font-size:15px;
+	line-height:16px;
+	vertical-align:top
+}
+table.tax_all tr td {
+	padding:5px;
+	vertical-align:bottom;
+	line-height:25px;
+	vertical-align:top
+}
+table tr td input, textarea {
+	vertical-align:top;
+	margin-left:10px;
+	border:none;
+	padding:3px;
+	margin-bottom:15px;
+}
+table tr td input:focus {
+	background:#990;
+}
+table tr td textarea:focus {
+	background:#990;
+}
+table tr td strong.left_strong {
+	width:170px;
+	display:block;
+	float:left;
+}
+table tr td strong.left_normal {
+	display:block;
+	float:left;
+	font-weight:normal;
+	margin-right:30px
+}
+table tr td {
+	font-size:10px!important;/*border: 1px solid black;*/
+	vertical-align:top!important;
+}
+.outer_table_padding {
+	padding:15px;
+}
+.break-before {
+	page-break-before: always;
+}
+.no-break {
+	page-break-inside: avoid;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="outer_table_padding">
+  <tr class="text">
+    <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="no-break">
+        <tr class="text">
+          <td valign="top"><table width="100%" border="0" cellspacing="2" cellpadding="7"  class="tblBorder">
+              <tr>
+                <td width="50%" valign="top" style="font-family:Helvetica, sans-serif; font-size:17px; " ><img alt="ACS" src="https://www.stanlay.in/images/stanlay-logo-black.png"/><br />
+                  Asian Contec Limited<br>
+                  Asian Centre,<br>
+                  B-28, Okhla Industrial Area, Phase - 1,<br>
+                  New Delhi - 110020.<br>
+                  Tel : +91-11-41860000 (100 lines)<br>
+                  Fax : +91-11-41860066<br>
+                  Sales helpline : +91-11-41406926<br>
+                  Email : sales@stanlay.com<br>
+                  Web : www.stanlay.in | www.stanlay.com<br /></td>
+                <td width="50%" align="right" valign="top" style="padding-top:10px;"><img alt="" src="https://www.stanlay.in/images/iso.jpg" height="150"  /></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td><table width="100%" border="0" cellspacing="0" cellpadding="2">
+              <tr>
+                <td><strong>To,</strong><br />
+                    Mr. Moni Gopal &nbsp;Giri <br />
+                                        M/s. Moni Gopal Giri <br />
+                    Saradapally, Inda, Near Gouri Bhavan, Paschim Midnapore                    ,<br />
+                    West Bengal, Kharagpur, 721305</td>
+                <td valign="top" class="tblBorder_invoice_right tblBorder_invoice_bottom tblBorder_invoice_top tblBorder_invoice_left pad" align="right" width="50%"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                        <tr>
+                      <td  style="border: none!important;"><strong>EID</strong></td>
+                      <td align="left" style="border: none!important;"><strong>:</strong></td>
+                      <td align="left" style="border: none!important;">25PI44353</td>
+                    </tr>
+                                        <tr>
+                      <td nowrap="nowrap" style="border: none!important;"><strong>Offer Reference</strong></td>
+                      <td align="left" style="border: none!important;"><strong>:</strong></td>
+                      <td align="left" style="border: none!important;" nowrap="nowrap">N1DD52ULDRPIR2-40719</td>
+                    </tr>
+                    <tr>
+                      <td style="border: none!important;"><strong>Date</strong></td>
+                      <td align="left" style="border: none!important;"><strong>:</strong></td>
+                      <td align="left" style="border: none!important;">23-Apr-2025</td>
+                    </tr>
+                                        <tr>
+                      <td style="border: none!important;"><strong>Mob</strong></td>
+                      <td  style="border: none!important;" align="left"><strong>:</strong></td>
+                      <td  style="border: none!important;" align="left">9434243251</td>
+                    </tr>
+                                                     <tr>
+                      <td style="border: none!important;"><strong>E-Mail</strong></td>
+                      <td align="left" style="border: none!important;"><strong>:</strong></td>
+                      <td align="left" style="border: none!important;">monigopalgiri2016@gmail.com</td>
+                    </tr>
+                  </table></td>
+              </tr>
+              <tr>
+                <td colspan="2"  height="25" class="tblBorder_invoice_right tblBorder_invoice_bottom  tblBorder_invoice_left">&nbsp;&nbsp;<strong>Subject:</strong> &nbsp; <strong>Offer for Cable Tiger Maxi Duct Rodder 300m.</strong></td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr>
+          <td class='tblBorder_invoice_right tblBorder_invoice_bottom  tblBorder_invoice_left'><p style="padding-left:10px;"><strong>Dear Sir/Madam,</strong><br />
+              This Refers to the discussions in regard to the above subject. We are pleased to provide our price offer as below for your consideration.</p></td>
+        </tr>
+                <tr>
+          <td  valign="top" class="offers_head no-break"><table width='100%' border='0' cellpadding='5' cellspacing='0' class='tblBorder_invoice_right   tblBorder_invoice_left'><tr class='head'><td class='tblBorder_invoice_bottom tblBorder_invoice_right' width='2%' nowrap='nowrap'   >S.No</td><td width='15%' class='tblBorder_invoice_bottom tblBorder_invoice_right'>Product Name</td><td width='55%' class='tblBorder_invoice_bottom tblBorder_invoice_right'>Description</td><td width='5%' class='tblBorder_invoice_bottom tblBorder_invoice_right' align='center'>Qty<br>A</td>
+<td width='5%' class='tblBorder_invoice_bottom tblBorder_invoice_right' nowrap='nowrap' align='center' ><strong>Unit Price<br>B</strong></td><td width='5%' class='tblBorder_invoice_bottom tblBorder_invoice_right' nowrap='nowrap' align='center'>Discount(-)<br>C</td><td width='5%' class='pad tblBorder_invoice_bottom tblBorder_invoice_right' align='center'>Add IGST Value (%)<br>D</td><td width='5%' class='tblBorder_invoice_bottom ' nowrap='nowrap' align='center'><strong>Sub Total</strong><br>=A*(B-C)</td></tr><tr class='text'><td class='pad tblBorder_invoice_bottom tblBorder_invoice_right' >1</td><td class='tblBorder_invoice_bottom tblBorder_invoice_right' valign='top'><strong>Cable Tiger Maxi Duct Rodder 300m</strong><br /><br> <strong>UPC Code:</strong>100094<br> <strong>HSN Code:</strong>8479<br> <strong>Model No:</strong>ST-CD300</td><td valign='top' class='tblBorder_invoice_bottom tblBorder_invoice_right'  style='font-size:11px!important;'>Stanlay Cabletiger Maxi rodder based on 9mm dia (Color – Yellow) composite fibreglass rod with polypropylene coating, provided in a 2 wheel frame with wheels for use on any terrain, ; Provided in 300m  / 1000 feet length.</td><td valign='top' class='tblBorder_invoice_bottom tblBorder_invoice_right' width='2%'> 1 </td><td valign='middle' class='tblBorder_invoice_bottom tblBorder_invoice_right' nowrap='nowrap' > &#8377; 27,470.00</td><td valign='middle' class='tblBorder_invoice_bottom tblBorder_invoice_right' nowrap='nowrap' width='3%'>&#8377; 1922.9<br /> (7%)</td><td valign='middle' class='tblBorder_invoice_bottom tblBorder_invoice_right' nowrap='nowrap' width='3%'> &#8377; 4598.478<br>(18%)</td><td valign='middle' class='tblBorder_invoice_bottom ' nowrap='nowrap'>&#8377; 25,547.10</td></tr></table></td>
+        </tr>
+        <tr>
+          <td align="right" class='tblBorder_invoice_right tblBorder_invoice_bottom  tblBorder_invoice_left no-break'><table width='30%' border='0' cellpadding='5' cellspacing='0' ><tr class='text'><td width='70%' class='pad tblBorder_invoice_bottom tblBorder_invoice_right tblBorder_invoice_left ' nowrap align='right'><strong>Sub Total :</strong> </td><td width='30%'  align='right' class='tblBorder_invoice_bottom ' nowrap='nowrap'> &nbsp; &nbsp;&#8377;25,547.10</td></tr><tr class='text' style='display:none'><td class='pad tblBorder_invoice_bottom tblBorder_invoice_right tblBorder_invoice_left' nowrap align='right'><strong>Discount :</strong></td><td align='right'  class='tblBorder_invoice_bottom'> &nbsp; &nbsp;&#8377;1,922.90</td></tr><tr class='text'><td class='pad tblBorder_invoice_right tblBorder_invoice_bottom tblBorder_invoice_left' nowrap align='right'><strong>Freight Value :</strong></td><td align='right'  class='tblBorder_invoice_bottom' nowrap='nowrap' >&nbsp; &nbsp; &#8377;6,000.00</td></tr><tr class='text'><td class='pad tblBorder_invoice_bottom tblBorder_invoice_right tblBorder_invoice_left' nowrap align='right'><strong>GST :</strong></td><td align='right'  class='tblBorder_invoice_bottom'  > &nbsp; &nbsp; &#8377;5,678.48</td></tr><tr class='text'><td class='tblBorder_invoice_right tblBorder_invoice_left' nowrap align='right'><strong>Grand Total :</strong></td><td align='right'  nowrap='nowrap' ><h4> &nbsp; &nbsp; &#8377;37,225.58</h4></td></tr></table></td>
+        </tr>
+      </table>
+  </tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" class="outer_table_padding break-before">
+  <tr>
+    <td align="right" height="20" style="padding-top:25px;padding-bottom:25px;"><strong style="font-size:17px"><br />
+      <br />
+      Continues........(Page No.1)</strong></td>
+  </tr>
+  <tr>
+    <td class="pad offer_bot" style="padding-top:25px; padding-left:5px;"><p>We are an <strong>ISO 9001:2015</strong> certified quality organization with sales and servicing from 10 locations- <strong>New Delhi, Lucknow, Mumbai, Kolkata, Bangalore, Hyderabad, Bhubaneshwar, Guwahati, Patna, Vadodara & our works at Faridabad to ensure that our customers receive our best attention on supply, training and service.</strong></p>
+      <p><strong> <u>Terms and Conditions:</u></strong></p>
+            <p><strong>Taxes:</strong> IGST extra as shown above<br />
+        Our GST No is 07AAACA0859J1ZQ </p>
+      <p>In Case of Intra State Sale, IGST should be read as IGST = 50% SGST + 50% CGST for internal references and will be invoice as such. </p>
+            <p><strong>Order in favour of:</strong> Asian Contec Limited, B-28, Okhla Industrial Area, Phase - I, New Delhi - 110020.
+                <p><strong>Delivery:</strong> Immediate Upon Receipt of Payment.</p>
+        <!--Asian Contec Limited, B-28, Okhla Industrial Area, Phase-1, New Delhi-110020--></p>
+            <p><strong>Payment: </strong>100% Advance against Proforma Invoice.<!--Advance Advance against PI --> 
+        
+      </p>
+      <p><strong>Delivery by: </strong> Spot on/ GATI/ DTDC as mutually agreed.</p>
+      <p><strong>Validity: </strong>Offer is valid for 30 Days from offer date.</p>
+      <p> <strong>Warranty:</strong>
+                1 Year        .
+      </p>
+            <p> <strong>Note:</strong><!-- Discount % if mentioned in offer should be utilised only for your internal reference & should not/will not be further mentioned in commercial documents including purchase order, invoice etc.--></p>
+      <p> 1. Discount % if mentioned in offer should be utilised only for your internal reference & should not/will not be further mentioned in commercial documents including purchase order, invoice etc.</p>
+      <p>2. Unless otherwise agreed to, Standard Payments are 100% in Advance,  unless any other payment term has been agreed to. Delay of the payment caused by Buyer, may entitle M/s Asian Contec limited to Charge interest @15 % per annum basis.</p>
+      3. Offer is subject to GENERAL STANDARD TERMS AND CONDITIONS FOR THE SALE OF PRODUCTS, enclosed.
+      </p>
+      <br>
+      <p>We look forward to receiving your valued order for which we thank you in advance </p>
+      <p><strong>Thanking you,</strong><br />
+        Your sincerely,<br />
+        For <strong>ASIAN CONTEC LIMITED</strong></p>
+      <p>&nbsp;</p>
+      <p><strong>Dipankar &nbsp;Datta </strong><br />
+        <strong>Sales Manager</strong><br />
+        Mobile: 9311542623<br />
+        Tel No: +91-11-41860000 (100 Lines)<br />
+        
+        <!--Fax No: +91-11-41860666 <br />--> 
+        
+        E-Mail: sales@stanlay.com, dipankar@stanlay.com<br />
+        Web: www.stanlay.in<br />
+        Web: www.stanlay.com</p></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="0" class="outer_table_padding tblBorder_invoice_right   tblBorder_invoice_left tblBorder_invoice_bottom">
+  <tr>
+    <td   colspan="4" align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_top " ><p align="center"><strong>Thank you for    considering purchase from our company. While your point of contact is our    sales team member as mentioned above, Other contacts for Coordination who can    be of further service pre and post sales are as follows. </strong><br>
+        <strong>(Central contact    phone&nbsp; : 011-41860000 ; helpline :&nbsp; 011-41406926)</strong></p></td>
+  </tr>
+  <tr>
+    <td width="25%" align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right "><p><strong>Sales</strong></p></td>
+    <td width="25%" align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right "><p><strong>Shipping &amp; Coordination </strong></p></td>
+    <td width="25%" align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right "><p><strong>Invoicing &amp; Accounts</strong></p></td>
+    <td width="25%" align="left" valign="top" class="pad tblBorder_invoice_bottom  "><p align="center"><strong>Technical queries    &amp; Service</strong></p></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right ">Ms. Mala Bajpai<br>
+      <a href="mailto:sales@stanlay.com">sales@stanlay.com</a></td>
+    <td align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right ">Mr. Abhay Verma,&nbsp; <br>
+      Executive , Logistics / Shipping<br>
+      <a href="mailto:cord@stanlay.com">cord@stanlay.com</a></td>
+    <td align="left" valign="top" class="pad tblBorder_invoice_bottom tblBorder_invoice_right ">Mr. Sanjeev <br>
+      <a href="mailto:accounts@stanlay.com">accounts@stanlay.com</a></td>
+    <td align="left" valign="top" class="pad tblBorder_invoice_bottom   ">Mr. Amit Sharma<br>
+      <a href="mailto:amit@stanlay.com">amit@stanlay.com</a></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top" class="pad  tblBorder_invoice_right "><!--Ms Divya Chamoli, Team Leader <br>
+      <a href="mailto:salestl@stanlay.com">salestl@stanlay.com</a>--></td>
+    <td align="left" valign="top" class="pad  tblBorder_invoice_right ">Mr. Pawan Kumar, Team Leader<br>
+      <a href="mailto:mp@stanlay.com">pawan@stanlay.com</a></td>
+    <td align="left" valign="top" class="pad  tblBorder_invoice_right "><p>Mr. Pankaj Jain, Team Leader<br>
+        <a href="mailto:finance@stanlay.com">finance@stanlay.com</a></p></td>
+    <td align="left" valign="top" class="pad  ">Mr. Muneeb Rahman, Team Leader<br>
+      <a href="mailto:muneeb@stanlay.com">muneeb@stanlay.com</a></td>
+  </tr>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%" class="outer_table_padding break-before">
+  <tr>
+    <td class="pad offer_bot break-before" align="justify"><p>&nbsp; </p>
+      <p align="center"><strong>Asian Contec Limited  (Seller , also referred to as ACL )</strong><br />
+        <u><strong>GENERAL STANDARD TERMS AND  CONDITIONS FOR THE SALE OF PRODUCTS (GCC)</strong></u> </p>
+      <strong>1. GENERAL</strong>
+      <p>These General Terms  and Conditions (T&amp;C) for the Sale of Products and Services (Products) is by  and between Asian Contec Limited, &nbsp;India &nbsp;and its subsidiaries and/or  affiliates (Seller), and the party contracting to purchase the Products  (Buyer). Buyer represents and warrants to Seller that Buyer has the authority  and right to enter into this Agreement without breaching or violating any  fiduciary, contractual, statutory, or other legal obligations. Any Seller  proposal and acknowledgement of Buyer&rsquo;s purchase order or contract (Order or  Contract) are expressly made in accordance with the T&amp;C hereof. If individual  provisions of these T&amp;C are in conflict with the provisions set forth in  Seller Offer or Order acknowledgement, these latter shall take precedence and  the remain provisions of these T&amp;C&rsquo;s, not directly in conflict, shall  continue to control. <br />
+        <strong>2. PRICE, DELIVERY AND TITLE.</strong> <br />
+        Unless otherwise agreed to in writing by both parties <br />
+        i. Delivery offered is ex-works, unless otherwise  specified. Freight changes shall be charged at actuals or as stated in offer.&nbsp; <br />
+        ii. Title to and risk of loss or damage shall pass to  Buyer upon handover of goods to transporter who will <strong>constitute buyer&rsquo;s  agent. </strong><strong> </strong><br />
+        iii. Seller will endeavor to meet the delivery  schedule as specified in the Order, but in no case Seller will be responsible  for delay in deliver at the time specified in the Order especially in the  occurrence of unforeseeable events, circumstances or conditions beyond the  Seller&rsquo;s control, such as all events of Force Majeure, which prevent to deliver  in time; such events shall include in particular Embargoes, Export  Restrictions, Armed Conflicts, Transport and Customs Delay, Shipping Damage,  Power and Raw Material Shortage, Labour Disputes and Default of a major  Supplier. The concerned delivery dates shall be extended for a period equal to  the duration of such events. <br />
+        v. Early delivery or expedited shipping will be  possible upon ACL written consent with possible additional fee. <br />
+        vi. Should an event of Force Majeure lead to the  cancellation of a purchase order already accepted by ACL, then ACL maximum  aggregate liability shall be the repayment, without interests, of the sums received  for the Products or Services not supplied. <br />
+        <strong>3. ACCEPTANCE OF PRODUCTS.&nbsp; </strong> <br />
+        Seller will supply  the Products in accordance with manufacturer&rsquo;s quality control processes and  procedures. Buyer&rsquo;s inspection of the Products shall be made at the Buyer&rsquo;s  facility and at Buyer&rsquo;s expense.&nbsp; Buyer shall, immediately upon receipt, notify  Seller of any damage, discrepancy, or nonconformity, other than quantity, in  the Products.&nbsp; Buyer&rsquo;s failure to inspect or failure to timely notify  Seller of any damage, discrepancy, or nonconformity shall be deemed a waiver of  any and all such claims and shall relieve Seller from its obligations and any  liability. Seller&rsquo;s weights and quantity counts taken at the shipping point  shall govern.&nbsp; Buyer hereby waives any claims unless Buyer notifies Seller  in writing of any such discrepancy within ten (10) calendar days after the date  of receipt of products.&nbsp; <br />
+        <strong>4.  PAYMENT. </strong> <br />
+        Unless otherwise agreed to, </p>
+      <ol>
+        <li>Standard Payments are  100% in Advance from date of  Proforma invoice date,  but, in any case, before shipment occurs, unless any other payment term has  been agreed to. </li>
+        <li>Payments  shall be made, without deductions and without any set-off.</li>
+        <li>Delay of  the payment caused by Buyer, may entitle Seller to :</li>
+        <li>Delay the fulfillment  of its obligations until such payment has been effected; </li>
+        <li>Extend the time of  delivery accordingly; </li>
+        <li>Charge interest @12%  per annum basis or 3 times the RBI interest rates, at months rests, whichever  is higher. </li>
+        <li><em>We are an MSME unit and covered  by provisions of Section 15 of the MSME Act of Govt of India which states  that&nbsp;</em><em>the payment to the MSME suppliers shall be made within the  date specified in the agreement (order) not exceeding 45 days from date of  delivery/acceptance beyond which the Act specifies charges at the rate of 3  times the RBI interest rate</em>&nbsp;at monthly rests. </li>
+        <li>Retain the title of  goods delivered until due amounts have been fully received. </li>
+      </ol>
+      <p><strong>5.  WARRANTY. </strong> <br />
+        i. Seller warrants  that its Products shall be free from defects in material and workmanship, for a  period of 12 months or as per manufacturers policy for product supplied from  the dispatch date. Seller&rsquo;s obligation is limited to repairing or replacing  parts or products which are returned, without alteration or further damage, and  which at ACL or manufacturer&rsquo;s judgment, were defective or became defective  during its normal use.<br />
+        ii. For Products  returned during the warranty period, shipping costs from Buyer to Seller are  borne by Buyer, from Seller to Buyer are borne by Seller. <br />
+        iii. Any different  warranty, granted by the Buyer to its retailers, contractors and clients, even  as final consumers, does not engage ACL in anyway. <br />
+        iv. The above  mentioned warranty excludes any other remedies and it has to be considered the  only and exclusive remedy foreseen for the Buyer and its retailers ,  contractors and clients, with reference to Products purchased, being,  expressively understood that any kind of limitation and/or discharge of  responsibility provided by the present warranty is referred to both (I) the  responsibility as against any third parties, pursuant to the legislation  regarding the manufacturer responsibility and (II) the warranty provided by the  law in force. <br />
+        v. The foregoing warranties are in lieu of all other  warranties and Seller makes no other warranties whether written, oral, express,  implied or statutory, including, but not limited to, warranties of  merchantability or fitness for particular purpose. <br />
+        <strong>6. DISCLAIMER, LIMITED LIABILITY. </strong> <br />
+        <strong>Purchase and Use of the Products. </strong></p>
+      <ol>
+        <li>Buyer, before  proceeding to the purchase of the Products is recommended to duly examine the  Seller documentation relevant to the technical characteristics of the Products,  in order to evaluate if the Products are fitted for the expected use. </li>
+        <li>Products may include also  specific Operational software. While every effort is made to ensure the  accuracy of the information provided, the user must be aware that the results  provided by products offered may be not absolutely error free. </li>
+        <li>In no event shall  Seller be liable for special, indirect, incidental, exemplary, punitive or  consequential damages including, but not limited to, loss of profits or  revenue, caused by the purchase and use of the Products. Buyer assumes all  risks and liability resulting from use of the Products purchased, whether used  separately or in combination with other products. </li>
+      </ol>
+      <p><strong>7</strong>. <strong>GOVERNING LAW, DISPUTE</strong> <br />
+        Buyer hereby irrevocably agrees that disputes arising  under this Agreement unless resolved mutually, shall be subject to jurisdiction  of courts in New Delhi, India. </p>
+      <p align="center">&nbsp;</p>
+      <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html></body></html>
