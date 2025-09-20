@@ -1,0 +1,23 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /onboarding/
+
+  # Allow direct access to existing files and folders
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Redirect all other requests to index.html for React Router
+  RewriteRule . /onboarding/index.html [L]
+</IfModule>
+
+# Serve correct MIME types for JS and CSS files
+AddType application/javascript .js
+AddType text/css .css
+
+# Optional: Improve caching for performance
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/javascript "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/css "access plus 1 week"
+</IfModule>

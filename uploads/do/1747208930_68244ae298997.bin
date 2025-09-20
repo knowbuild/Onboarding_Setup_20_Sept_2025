@@ -1,0 +1,29 @@
+Start,End,"Task Type","Product Category","Company Name","Customer Name","Offer ID","Offer Stage","Opportunity Value",Remarks,"Account Manager",Status
+"14-Apr-2025 ","14-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"15-Apr-2025 ","15-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"16-Apr-2025 ","16-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"17-Apr-2025 ","17-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"18-Apr-2025 ","18-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"19-Apr-2025 ","19-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Completed
+"21-Apr-2025 ","21-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Integrated the create PI functionality in opportunities tab in dashboard • Integrated the linking in dashboard • Fixed errors in dashboard (mark as dead, active , kill etc) • Fixed issue in inside enquiry details ","Yash Sharma",Completed
+"22-Apr-2025 ","22-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Integrated acc_manager id in product category, service category & customer segments • Fixed issue in assign enquiry modal in inside sales • Fixed issue in dashboard (integrated convert to lead and create pi functionality) • Fixed other crm issues ","Yash Sharma",Completed
+"23-Apr-2025 ","23-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Fixed bugs in inside sales and other issues • Started working on PQV • Improvised the quality of code (removed unnecessary code in pqv) • Integrated listing of pqv in table ","Yash Sharma",Completed
+"24-Apr-2025 ","24-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Integrated listing api for PQV • Integrated mobile filters and desktop filters in pqv listing • Redesigned the reusable table for extra row rendering. ","Yash Sharma",Completed
+"25-Apr-2025 ","25-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"Fixed issue on inside sales","Yash Sharma",Completed
+"28-Apr-2025 ","28-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Integrated sqv listing api • Linked pages of pqv, sqv and tes manager to the react one instead of the Stanlay • Fixed issues on pqv for qbd listing api • Fixed issues in crm ","Yash Sharma",Completed
+"29-Apr-2025 ","29-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixes","Yash Sharma",Completed
+"30-Apr-2025 ","30-Apr-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Fixed issue on inside sale inquiry manager • Integrated sorting through frontend in enquiry manager for assigned date • Fixed issue of account manager in inside sales • Added filter in enquiry manager (removed from advance filter) ","Yash Sharma",Completed
+"01-May-2025 ","01-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Fixed issues on PI (view po) • Integrated the payment terms in edit PI • Fixed other issues in offer pdf & lead listing • Fixed other issue in CRM ","Yash Sharma",Completed
+"02-May-2025 ","02-May-2025 ",Holiday,,," ",-0,"Offer: 50%",,"on leave","Yash Sharma",Completed
+"03-May-2025 ","03-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"Integrated the customer directory history page along with UI and functionality Fixed the issues of convert to lead and edit customer details in enquiry and lead Fixed other issues in CRM","Yash Sharma",Completed
+"05-May-2025 ","05-May-2025 ",Holiday,,," ",-0,"Offer: 50%",,"on leave","Yash Sharma",Completed
+"06-May-2025 ","06-May-2025 ",Holiday,,," ",-0,"Offer: 50%",,"on leave","Yash Sharma",Completed
+"07-May-2025 ","07-May-2025 ",Holiday,,," ",-0,"Offer: 50%",,"on leave","Yash Sharma",Completed
+"08-May-2025 ","08-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"• Integrated enquiry id in advanced filter in lead listing • Integrated switch cases for lead in enquiry and inbound enquiry • Fixed issues in enquiry listing • Changed the tabs in opportunities tab in dashboard ","Yash Sharma",Completed
+"09-May-2025 ","09-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"integrated task overdue or completed and other bugs","Yash Sharma",Completed
+"12-May-2025 ","12-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
+"13-May-2025 ","13-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
+"14-May-2025 ","14-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
+"15-May-2025 ","15-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
+"16-May-2025 ","16-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
+"17-May-2025 ","17-May-2025 ","Software Development",,," ",-0,"Offer: 50%",,"bug fixing","Yash Sharma",Pending
