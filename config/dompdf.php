@@ -96,6 +96,26 @@ return [
             'http://' => ['rules' => []],
             'https://' => ['rules' => []],
         ],
+        
+        /**
+         * Enable remote file access
+         */
+        'enable_remote' => true,
+
+        /**
+         * Enable CSS float
+         */
+        'enable_css_float' => true,
+
+        /**
+         * Enable inline PHP
+         */
+        'enable_php' => true,
+
+        /**
+         * Enable HTML5 parser
+         */
+        'enable_html5_parser' => true,
 
         /**
          * Operational artifact (log files, temporary files) path validation

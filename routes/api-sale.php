@@ -54,6 +54,7 @@ Route::prefix('inside-sales')->group(function () {
 Route::prefix('sale-offer-template')->group(function () {
     Route::get('/show-details', [SaleOfferTemplateController::class, 'showDetails']);  
     Route::post('/store-or-update', [SaleOfferTemplateController::class, 'storeOrUpdate']); 
+    Route::get('/store-or-update-test', [SaleOfferTemplateController::class, 'storeOrUpdate_test']); 
      Route::post('/term-disable-update', [SaleOfferTemplateController::class, 'termDisableUpdate']);   
  
 });

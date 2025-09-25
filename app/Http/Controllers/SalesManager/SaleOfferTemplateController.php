@@ -55,6 +55,14 @@ class SaleOfferTemplateController extends Controller
                 'terms_conditions'   => $this->formatTerms($saleOfferTemplate),
                 'notes'              => $saleOfferTemplate->notes,
                 'general_standard'   => $saleOfferTemplate->general_standard,
+                'subject'            => $saleOfferTemplate->subject,
+                'style_font'         => $saleOfferTemplate->style_font,
+                'mail_message'       => $saleOfferTemplate->mail_message,
+                'certified_note'     => $saleOfferTemplate->certified_note,
+                'contact_member1'    => $saleOfferTemplate->contact_member1,
+                'contact_member2'    => $saleOfferTemplate->contact_member2,
+                'contact_member3'    => $saleOfferTemplate->contact_member3,
+                'contact_member4'    => $saleOfferTemplate->contact_member4,
             ];
         } else {
             $generalTemplate = SaleOfferTemplateGeneral::first();
@@ -147,6 +155,14 @@ public function storeOrUpdate(Request $request)
         'terms_conditions.*.term_disable' => 'required|string|in:true,false',
         'notes'             => 'required|string',
         'general_standard'  => 'required|string',
+        'subject'           => 'nullable|string',
+        'style_font'        => 'nullable|string',
+        'mail_message'      => 'nullable|string',
+        'certified_note'    => 'nullable|string',
+        'contact_member1'   => 'nullable|string',
+        'contact_member2'   => 'nullable|string',
+        'contact_member3'   => 'nullable|string',
+        'contact_member4'   => 'nullable|string',
     ]);
 
     if ($validator->fails()) {
@@ -189,6 +205,14 @@ public function storeOrUpdate(Request $request)
             'template_no'       => $request->template_no,
             'notes'             => $request->notes,
             'general_standard'  => $request->general_standard,
+            'subject'           => $request->subject,
+            'style_font'        => $request->style_font,
+            'mail_message'      => $request->mail_message,
+            'certified_note'    => $request->certified_note,
+            'contact_member1'   => $request->contact_member1,
+            'contact_member2'   => $request->contact_member2,
+            'contact_member3'   => $request->contact_member3,
+            'contact_member4'   => $request->contact_member4,
         ]
     );
 
@@ -217,14 +241,22 @@ return response()->json([
 ], 200);
 }
 
-protected function downloadPdf($saleOfferTemplate)
+// protected function downloadPdf($saleOfferTemplate)
+public function storeOrUpdate_test()
 {
+    
+    $saleOfferTemplate = SaleOfferTemplate::where('customer_id', 2)->first();
+    
     // Generate PDF and save to public directory, return relative path for download link
+    // Set PDF generation options for reliable image handling
     $pdf = PDF::loadView('Onboarding.pdf_word_download.sales_offer_format', [
         'saleOfferTemplate' => $saleOfferTemplate
-    ])->setPaper('a4', 'portrait')
-      ->setOptions(['defaultFont' => 'sans-serif']);
-
+    ])->setPaper('a4', 'portrait');
+     
+    //   return view('Onboarding.pdf_word_download.sales_offer_format', [
+    //     'saleOfferTemplate' => $saleOfferTemplate
+    // ]);
+    return $pdf->stream('purchase_order_test.pdf');
     $fileName = 'sale_offer_template_' . $saleOfferTemplate->customer_id . '_' . time() . '.pdf';
     $filePath = 'downloads/sale_offer_templates/' . $fileName;
     $fullPath = public_path($filePath);
