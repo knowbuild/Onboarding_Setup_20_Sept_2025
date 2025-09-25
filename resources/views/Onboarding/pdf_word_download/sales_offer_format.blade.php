@@ -156,14 +156,18 @@
 
             <!-- Subject Line -->
             <tr>
-                <td style="padding: 16px 0 24px"><b>Subject:</b> PRICE OFFER OF 12W Pathfinder Precision Pipe & Cable Locator Model No: STLOC10-MC.</td>
+                <td style="padding: 16px 0 24px">
+                    <div style="font-size: 14px; line-height: 20px;">
+                        
+                         {!! $saleOfferTemplate->subject !!}
+                    </div>
+                </td>
             </tr>
 
             <!-- Dear Sir/Madam Section -->
             <tr>
                 <td style="padding: 0 0 15px; margin: 0;">
-                    <h6 style="padding: 0; margin: 0;font-weight: 600;font-size: 14px;line-height: 20px;">Dear Sir/Madam,</h6>
-                    <p style="padding: 0; margin: 0; line-height: 20px;">This Refers to the discussions in regard to the above subject. We are pleased to provide our price offer as below for your consideration.</p>
+                    {!! $saleOfferTemplate->mail_message !!}
                 </td>
             </tr>
 
@@ -248,15 +252,13 @@
                 <td style="vertical-align: top;color: #484848;">
                     <h5 style="margin: 0; padding: 0 0 10px; font-size: 16px; line-height: 22px;color: #484848;">Terms And Conditions:</h5>
                     <table cellpadding="0" cellspacing="0" width="100%" border="0">
-                        <tr>
-                            <td style="padding: 0 0 5px;"><b>Taxes:</b> IGST extra as shown above</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0 0 5px;"><b>Our GST No:</b> 07AAACA0859J1ZQ</td>
-                        </tr>
-                        <tr>
-                            <td style="padding: 0 0 5px;">In Case of Intra State Sale, IGST should be read as IGST + 50% SGST + 50% CGST for internal references and will be invoice as such</td>
-                        </tr>
+                        @for($i = 1; $i <= 6; $i++)
+                            @if(isset($saleOfferTemplate["term_name{$i}"]) && $saleOfferTemplate["term_disable{$i}"] === "false")
+                                <tr>
+                                    <td style="padding: 0 0 5px;"><b>{{ $saleOfferTemplate["term_name{$i}"] }}:</b> {{ $saleOfferTemplate["term_details{$i}"] }}</td>
+                                </tr>
+                            @endif
+                        @endfor
                         <tr>
                             <td style="padding: 0 0 5px;"><b>Order in favour of:</b> Asian Contec Limited, B-28, Okhla Industrial Area, Phase - I, New Delhi - 110020.</td>
                         </tr>
@@ -313,53 +315,29 @@
 
                     <table cellpadding="0" cellspacing="0" width="100%" border="0" style="border-collapse: separate; border-spacing: 10px;">
                         <tr>
-                            <!-- Sales -->
-                            <td width="25%" style="border: 1px solid #E8E8E8; padding: 16px; vertical-align: top;">
-                                <h6 style="margin: 0 0 8px; padding: 0; font-size: 13px; color: #333333;">Sales</h6>
-                                <p style="margin: 0; padding: 0; font-size: 12px; line-height: 18px; color: #484848;">
-                                    Ms Mala Bajpai<br>
-                                    <a href="mailto:sales@stanlay.com" style="color: #484848; text-decoration: none;">sales@stanlay.com</a>
-                                </p>
-                            </td>
-
-                            <!-- Shipping & Coordination -->
-                            <td width="25%" style="border: 1px solid #E8E8E8; padding: 16px; vertical-align: top;">
-                                <h6 style="margin: 0 0 8px; padding: 0; font-size: 13px; color: #333333;">Shipping & Coordination</h6>
-                                <p style="margin: 0 0 10px; padding: 0; font-size: 12px; line-height: 18px; color: #484848; border-bottom: 1px solid #E8E8E8; padding-bottom: 10px;">
-                                    Mr. Abhay Verma,<br>
-                                    Executive, Logistics / Shipping<br>
-                                    <a href="mailto:cord@stanlay.com" style="color: #484848; text-decoration: none;">cord@stanlay.com</a>
-                                </p>
-                                <p style="margin: 0; padding: 0; font-size: 12px; line-height: 18px; color: #484848;">
-                                    Team Leader: Mr Pawan Kumar<br>
-                                    <a href="mailto:pawan@stanlay.com" style="color: #484848; text-decoration: none;">pawan@stanlay.com</a>
-                                </p>
-                            </td>
-
                             <!-- Invoicing & Accounts -->
-                            <td width="25%" style="border: 1px solid #E8E8E8; padding: 16px; vertical-align: top;">
-                                <h6 style="margin: 0 0 8px; padding: 0; font-size: 13px; color: #333333;">Invoicing & Accounts</h6>
-                                <p style="margin: 0 0 10px; padding: 0; font-size: 12px; line-height: 18px; color: #484848; border-bottom: 1px solid #E8E8E8; padding-bottom: 10px;">
-                                    Mr Sanjeev<br>
-                                    <a href="mailto:accounts@stanlay.com" style="color: #484848; text-decoration: none;">accounts@stanlay.com</a>
-                                </p>
-                                <p style="margin: 0; padding: 0; font-size: 12px; line-height: 18px; color: #484848;">
-                                    Team Leader: Mr Pankaj Jain<br>
-                                    <a href="mailto:finance@stanlay.com" style="color: #484848; text-decoration: none;">finance@stanlay.com</a>
-                                </p>
+                            <td width="25%" style="vertical-align: top; background: #f7f7fa; border-radius: 10px; padding: 16px; box-shadow: 0 0 2px #ccc;">
+                                {!! $saleOfferTemplate->contact_member1 !!}
+
                             </td>
 
                             <!-- Technical queries & Service -->
-                            <td width="25%" style="border: 1px solid #E8E8E8; padding: 16px; vertical-align: top;">
-                                <h6 style="margin: 0 0 8px; padding: 0; font-size: 13px; color: #333333;">Technical queries & Service</h6>
-                                <p style="margin: 0 0 10px; padding: 0; font-size: 12px; line-height: 18px; color: #484848; border-bottom: 1px solid #E8E8E8; padding-bottom: 10px;">
-                                    Mr Amit Sharma<br>
-                                    <a href="mailto:amit@stanlay.com" style="color: #484848; text-decoration: none;">amit@stanlay.com</a>
-                                </p>
-                                <p style="margin: 0; padding: 0; font-size: 12px; line-height: 18px; color: #484848;">
-                                    Team Leader: Mr Muneeb Rah man<br>
-                                    <a href="mailto:muneeb@stanlay.com" style="color: #484848; text-decoration: none;">muneeb@stanlay.com</a>
-                                </p>
+                            <td width="25%" style="vertical-align: top; background: #f7f7fa; border-radius: 10px; padding: 16px; box-shadow: 0 0 2px #ccc;">
+                                 {!! $saleOfferTemplate->contact_member2 !!}
+                            </td>
+
+                            <!-- Sales -->
+                            <td width="25%" style="vertical-align: top; background: #f7f7fa; border-radius: 10px; padding: 16px; box-shadow: 0 0 2px #ccc;">
+                                                                {!! $saleOfferTemplate->contact_member3 !!}
+
+                                
+                            </td>
+
+                            <!-- Shipping & Coordination -->
+                            <td width="25%" style="vertical-align: top; background: #f7f7fa; border-radius: 10px; padding: 16px; box-shadow: 0 0 2px #ccc;">
+                                                                {!! $saleOfferTemplate->contact_member4 !!}
+
+                                
                             </td>
                         </tr>
                     </table>

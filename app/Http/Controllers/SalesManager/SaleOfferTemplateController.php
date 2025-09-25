@@ -155,14 +155,14 @@ public function storeOrUpdate(Request $request)
         'terms_conditions.*.term_disable' => 'required|string|in:true,false',
         'notes'             => 'required|string',
         'general_standard'  => 'required|string',
-        'subject'           => 'nullable|string',
-        'style_font'        => 'nullable|string',
-        'mail_message'      => 'nullable|string',
-        'certified_note'    => 'nullable|string',
-        'contact_member1'   => 'nullable|string',
-        'contact_member2'   => 'nullable|string',
-        'contact_member3'   => 'nullable|string',
-        'contact_member4'   => 'nullable|string',
+        'subject'           => 'required|string',
+        'style_font'        => 'required|string',
+        'mail_message'      => 'required|string',
+        'certified_note'    => 'required|string',
+        'contact_member1'   => 'required|string',
+        'contact_member2'   => 'required|string',
+        'contact_member3'   => 'required|string',
+        'contact_member4'   => 'required|string',
     ]);
 
     if ($validator->fails()) {
@@ -247,8 +247,6 @@ public function storeOrUpdate_test()
     
     $saleOfferTemplate = SaleOfferTemplate::where('customer_id', 2)->first();
     
-    // Generate PDF and save to public directory, return relative path for download link
-    // Set PDF generation options for reliable image handling
     $pdf = PDF::loadView('Onboarding.pdf_word_download.sales_offer_format', [
         'saleOfferTemplate' => $saleOfferTemplate
     ])->setPaper('a4', 'portrait');
